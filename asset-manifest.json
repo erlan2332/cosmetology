@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/erlan2332/static/css/main.31ef6af5.css",
-    "main.js": "/erlan2332/static/js/main.597a3bef.js",
-    "static/js/453.ad6eb26e.chunk.js": "/erlan2332/static/js/453.ad6eb26e.chunk.js",
-    "static/media/pexels-scottwebb-1029596.jpg": "/erlan2332/static/media/pexels-scottwebb-1029596.c3de88c5190fb00c5647.jpg",
-    "static/media/pexels-julieaagaard-2294477.jpg": "/erlan2332/static/media/pexels-julieaagaard-2294477.44d8ebe5d77cd3f93045.jpg",
-    "static/media/pexels-bryce-carithers-11680701-6633868.jpg": "/erlan2332/static/media/pexels-bryce-carithers-11680701-6633868.6b01c88f742ca360f27d.jpg",
-    "static/media/pexels-gabby-k-6621461.jpg": "/erlan2332/static/media/pexels-gabby-k-6621461.76f6018b458faa817cbd.jpg",
-    "static/media/pexels-dawn-lio-1140724-4138543.jpg": "/erlan2332/static/media/pexels-dawn-lio-1140724-4138543.ddf4590d62824e765933.jpg",
-    "static/media/pexels-annpoan-5798000.jpg": "/erlan2332/static/media/pexels-annpoan-5798000.37ee7a481092e554f605.jpg",
-    "static/media/free-icon-placeholder-149060.png": "/erlan2332/static/media/free-icon-placeholder-149060.0c110d260bc5caa33a37.png",
-    "index.html": "/erlan2332/index.html",
-    "main.31ef6af5.css.map": "/erlan2332/static/css/main.31ef6af5.css.map",
-    "main.597a3bef.js.map": "/erlan2332/static/js/main.597a3bef.js.map",
-    "453.ad6eb26e.chunk.js.map": "/erlan2332/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/my-react-app/static/css/main.31ef6af5.css",
+    "main.js": "/my-react-app/static/js/main.c43f7fb0.js",
+    "static/js/453.ad6eb26e.chunk.js": "/my-react-app/static/js/453.ad6eb26e.chunk.js",
+    "static/media/pexels-scottwebb-1029596.jpg": "/my-react-app/static/media/pexels-scottwebb-1029596.c3de88c5190fb00c5647.jpg",
+    "static/media/pexels-julieaagaard-2294477.jpg": "/my-react-app/static/media/pexels-julieaagaard-2294477.44d8ebe5d77cd3f93045.jpg",
+    "static/media/pexels-bryce-carithers-11680701-6633868.jpg": "/my-react-app/static/media/pexels-bryce-carithers-11680701-6633868.6b01c88f742ca360f27d.jpg",
+    "static/media/pexels-gabby-k-6621461.jpg": "/my-react-app/static/media/pexels-gabby-k-6621461.76f6018b458faa817cbd.jpg",
+    "static/media/pexels-dawn-lio-1140724-4138543.jpg": "/my-react-app/static/media/pexels-dawn-lio-1140724-4138543.ddf4590d62824e765933.jpg",
+    "static/media/pexels-annpoan-5798000.jpg": "/my-react-app/static/media/pexels-annpoan-5798000.37ee7a481092e554f605.jpg",
+    "static/media/free-icon-placeholder-149060.png": "/my-react-app/static/media/free-icon-placeholder-149060.0c110d260bc5caa33a37.png",
+    "index.html": "/my-react-app/index.html",
+    "main.31ef6af5.css.map": "/my-react-app/static/css/main.31ef6af5.css.map",
+    "main.c43f7fb0.js.map": "/my-react-app/static/js/main.c43f7fb0.js.map",
+    "453.ad6eb26e.chunk.js.map": "/my-react-app/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31ef6af5.css",
-    "static/js/main.597a3bef.js"
+    "static/js/main.c43f7fb0.js"
   ]
 }
