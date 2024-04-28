@@ -1,0 +1,94 @@
+.header_med {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.icon_inst {
+    display: none;
+}
+
+.icon_what {
+    display: none;
+}
+
+.rec_cont {
+    max-width: 280px;
+    height: 230px;
+    border: solid 2px #007bff;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+/* social_media.css */
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #25D366;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Располагаем кнопку вправо */
+  }
+  
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #25D366;
+    color: #25D366;
+    font-size: 1rem;
+}
+
+.btn.ert-23-22 {
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #999797;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn.ert-23-22:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px #25D366;
+    color: #25D366;
+    font-size: 1rem;
+}
+
+.rec_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+  }
+  
+  .btn.ert-23-21,
+  .btn.ert-23-22 {
+    margin: 10px auto; /* Устанавливаем отступы для центрирования */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn.ert-23-21 {
+    margin-top: 25px;
+  }
+
+  .text_rec_soc_set {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+  }
+
+
+  
+
+  

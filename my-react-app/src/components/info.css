@@ -1,0 +1,175 @@
+.appointment-container {
+    text-align: center;
+    margin-top: 50px; /* Расстояние от верхнего края страницы */
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Расстояние между блоками времени */
+  }
+  
+  .time-slot {
+    text-align: center;
+  }
+  
+  .time-label {
+    font-size: 20px;
+    margin-bottom: 10px; /* Расстояние между надписью времени и кнопкой */
+  }
+
+  
+  .btn_oc {
+    background-color: #4CAF50; /* Зеленый */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .btn_oc:hover {
+    background-color: #45a049; /* Темно-зеленый */
+  }
+  
+  .btn_busy {
+    background-color: #f44336; /* Красный */
+  }
+  
+  .btn_busy:hover {
+    background-color: #d32f2f; /* Темно-красный */
+  }
+  
+  h1 {
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+  }
+
+  .current-date-time {
+    max-width: 1300px;
+    height: 100px;
+    margin: 0 auto; /* Устанавливаем автоматические отступы по бокам */
+    border-radius: 10px;
+    background-color: #45a049; /* Темно-зеленый */
+    margin-bottom: 50px;
+    display: flex; /* Размещаем внутренние элементы в виде флекс-контейнера */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* В
+    ыравниваем элементы по центру по вертикали */
+}
+
+
+
+.current-date,
+.current-time,
+.current-day {
+    flex: 1; /* Растягиваем элементы, чтобы они занимали равное пространство */
+    text-align: center; /* Выравниваем текст по центру */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    .current-date-time {
+      margin-left: 10px; /* Добавляем отступ слева */
+      margin-right: 10px; /* Добавляем отступ справа */
+    }
+  }
+
+
+  .card_grid {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    column-gap: 40px;
+    margin: 40px auto 0; /* Отступы сверху, по горизонтали центрируется */
+    width: fit-content; /* Ширина будет равна сумме ширин всех дочерних элементов */
+}
+
+@media (max-width: 768px) {
+    .card_grid {
+        grid-template-columns: 1fr; /* Один столбец на мобильных устройствах */
+        column-gap: 10px; /* Уменьшенный отступ между столбцами */
+        row-gap: 10px; /* Уменьшенный отступ между строками */
+    }
+
+    .header2 {
+      margin-left: 15px;
+      margin-top: 90px;
+      margin-bottom: 20px;
+      color: gray;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    .bg-color-bg {
+      display: none;
+    }
+}
+
+.card {
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1); 
+}
+
+/* social_media.css */
+.header_med {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.rec_cont {
+  display: flex;
+}
+
+.icon_inst,
+.icon_what {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.icon_inst:hover,
+.icon_what:hover {
+  transform: scale(1.2);
+}
+
+.icon_inst {
+  background-color: #f09433;
+  border-radius: 50%;
+}
+
+.icon_what {
+  background-color: #25D366;
+  border-radius: 50%;
+}
+
+.btn {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #25D366;
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
