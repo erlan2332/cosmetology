@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './info.css'; 
+import './info.css';
 import { Modal, Button } from 'react-bootstrap';
 
 class AppointmentScheduler extends Component {
@@ -20,7 +20,8 @@ class AppointmentScheduler extends Component {
     const currentDate = new Date();
     const currentWeekday = currentDate.getDay(); // Получение дня недели (0 - воскресенье, 1 - понедельник, и т.д.)
 
-    if (currentWeekday === 0) { // Если сегодня воскресенье
+    if (currentWeekday === 0) {
+      // Если сегодня воскресенье
       const allBusyAppointments = {
         '9-10': 'busy',
         '10-11': 'busy',
